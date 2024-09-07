@@ -15,7 +15,7 @@ public class CronJobApplication {
 	
 	@Scheduled(fixedRate = 5000)
 	public void hello() {
-		System.out.println("hello cron job is executed ");
+		System.out.println("hello cron job is executed and deployed as windows service ");
 	}
 
 }
